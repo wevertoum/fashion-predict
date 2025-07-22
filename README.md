@@ -24,10 +24,6 @@ pip install --upgrade pip
 pip install Flask Pillow tensorflow flask-cors
 ```
 
-````
-
-> ⚠️ Make sure `models/fashion_mnist_model.h5` exists in the correct folder. This is the pre-trained model.
-
 #### ▶️ Run the backend server
 
 ```bash
@@ -79,17 +75,8 @@ npm run dev
 
 ---
 
-## 🛠️ Troubleshooting
-
-- **Flask not found?** Make sure your Python virtual environment is activated.
-- **CORS errors?** Confirm both frontend and backend are running on localhost.
-- **Model not loading?** Check the `.h5` model path and file integrity.
-
----
-
 ## 📌 Tech Stack
 
 - **Frontend**: React, Vite, MUI, TypeScript
 - **Backend**: Flask, TensorFlow, Pillow
 - **Model**: Pre-trained CNN on Fashion MNIST
-````
